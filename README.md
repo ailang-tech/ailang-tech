@@ -1,16 +1,17 @@
-## Hi there 👋
+# R4
 
-<!--
-**ailang-tech/ailang-tech** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Research on quaternion algebra (ℍ) as a computational substrate.
 
-Here are some ideas to get you started:
+**R4-Iteron** — causal word-role learning without backpropagation.
+Discovers rules by remove-and-rerun testing rather than learning them as
+correlations from examples.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**R4-Attn** — bidirectional byte infill with signed, softmax-free attention,
+linear in sequence length. Scores a position from all surrounding context, and
+a negative score means "this is actively wrong" — something a softmax cannot
+express.
+
+Both are research substrates, not shipped models.
+
+Write-ups, interactive demos and visualizers — including a real trained
+model running in-browser: **https://ailang.tech**
